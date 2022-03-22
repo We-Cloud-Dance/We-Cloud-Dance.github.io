@@ -25,7 +25,7 @@ echo "
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  ⚠️   START SERVICE ✅  "
 tree -N -L 11 >
 
-echo "\n\n 🍻  Back - We Cloud Dance."
+echo "\n\n 🍻  Back - We Cloud Dance - Make Every Actions Accountable."
 
 echo "
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
