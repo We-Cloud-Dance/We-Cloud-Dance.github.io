@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/gridster.css">
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/jquery.gridster.min.css">
+<style>.Information-description {color:#fff;}</style>
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title"><i class="flaticon-381-layer mr-2"></i>Biz Products Analysis Process Matrix</h4>
+        </div>
+        <div class="card-body pb-1">
+            <div class="ml-sm-5">
+                <div class="gridster">
+                    <ul style="width: 100%; height: 100px; min-width: 50%;">
+                        <li data-row="1" data-col="1" data-sizex="3" data-sizey="4" class="gs-w gs-wb"><br><br>
+                            <h5 class="fs-20 mb-0 font-w600 text-white">② Demand Pain Points</h5>
+                        </li>
+                        <li data-row="1" data-col="4" data-sizex="3" data-sizey="2" class="gs-w gs-wb"><br><br>
+                            <h4 class="fs-20 mb-0 font-w600 text-white">③ Solution</h4>
+                        </li>
+                        <li data-row="3" data-col="4" data-sizex="3" data-sizey="2" class="gs-w gs-wb"><br><br>
+                            <h4 class="fs-20 mb-0 font-w600 text-white">⑧ Key Metrics</h4>
+                        </li>
+                        <li data-row="1" data-col="7" data-sizex="3" data-sizey="4" class="gs-w gs-wb"><br><br>
+                            <h4 class="fs-20 mb-0 font-w600 text-white">④ Unique Value Proposition</h4>
+                        </li>
+                        <li data-row="1" data-col="10" data-sizex="3" data-sizey="2" class="gs-w gs-wb"><br><br>
+                            <h5 class="fs-15 mb-0 font-w600 text-white">⑨ Unfair Advantage</h5>
+                        </li>
+                        <li data-row="3" data-col="10" data-sizex="3" data-sizey="2" class="gs-w gs-wb"><br><br>
+                            <h5 class="fs-15 mb-0 font-w600 text-white">⑤ Market Channels</h5>
+                        </li>
+                        <li data-row="1" data-col="13" data-sizex="3" data-sizey="4" class="gs-w gs-wb"><br><br>
+                            <h5 class="fs-20 mb-0 font-w600 text-white">① Customer Segments</h5>
+                        </li>
+                        <li data-row="5" data-col="1" data-sizex="7" data-sizey="2" class="gs-w gs-wb"><br><br>
+                            <h4 class="fs-20 mb-0 font-w600 text-white">⑦ Cost Structure</h4>
+                        </li>
+                        <li data-row="5" data-col="8" data-sizex="8" data-sizey="2" class="gs-w gs-wb"><br><br>
+                            <h4 class="fs-20 mb-0 font-w600 text-white">⑥ Revenue Streams</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.gridster.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+	var gridster;
+	function Matrix() {
+		$(".gridster > ul").gridster({
+			widget_margins: [25, 25],
+			widget_base_dimensions: [45, 45],
+            resize_enabled: false,
+            avoid_overlapped_widgets: false,
+			shift_larger_widgets_down: false,
+		});
+	};
+	Matrix();
+</script>

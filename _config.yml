@@ -1,1 +1,270 @@
-theme: jekyll-theme-cayman
+# Build Settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Pagination
+# paginate: 10
+# paginate_path: 'page:num'
+
+# Featured Tags
+#featured-tags: true
+#featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+# Stories
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# System Settings
+# system_platform:
+#   -
+#     href: /
+#     label: APT-SIS
+
+# Settings
+#highlighter: rouge
+encoding: utf-8
+relative_permalinks: false
+sys_title: APT-SIS
+sys_description: WE ARE APT-SIS. WE ARE APT-US-UCNLPTFS.
+sys_keyword: "WE ARE APT-SIS. WE ARE APT-US-UCNLPTFS."
+locale: en-US
+# baseurl: ""
+sys_organization: "APT-SIS"
+
+
+##
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+####
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+
+
+
+
+sys_favicon: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/products/favicon.png
+remote_global_ui: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/ui-icon/
+remote_products_api_v1: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/products/WeCloudDance_small_sign-v2.svg
+remote_products_api_v2: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/products/WeCloudDance_word_sign-v2.svg
+remote_dispatch_api: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance
+remote_account_api: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Account/
+remote_services_api: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/
+contributors_api: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/contributors/
+contributors_status: Contributors
+
+sidebar_monitor_dispatch_v1: Monitor Dispatch
+sidebar_monitor_dispatch_v2: Monitor Dispatch Hub
+sidebar_marketplace: Global Marketplace
+sidebar_biz_factory: Super Biz Factory
+sidebar_work_spaces: Work Spaces Hub
+sidebar_work_spaces_global_plans: Global Plans Overview
+sidebar_think_tank: Intl Think Tank
+sidebar_knowledge: Knowledge Graph
+sidebar_agency: Intelligence Agency
+sidebar_resources: Resource Manager

@@ -1,0 +1,71 @@
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/gridster.css">
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/jquery.gridster.min.css">
+<style>.Information-description {color:#fff;}</style>
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Next Biz Model Matrix</h4>
+        </div>
+        <div class="card-body pb-1">
+            <div class="col">
+                <div class="gridster">
+                    <ul style="width: 100%; height: 100px; min-width: 50%;">
+                        <li data-row="1" data-col="1" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>8. (KP) - Key Partnerships</h4>
+                             <p class="Information-description text-center">重要伙伴 - 谁可以帮我.</p>
+                        </li>
+                        <li data-row="1" data-col="4" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>6. (KA) - Key Actvities</h4>
+                            <p class="Information-description text-center">关键业务 - 我要做什么.</p>
+                        </li>
+                        <li data-row="3" data-col="4" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>7. (KR) - Key Resources</h4>
+                            <p class="Information-description text-center">核心资源 我是谁, 我拥有什么</p>
+                        </li>
+                        <li data-row="1" data-col="7" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>2. (VP) - Value Propositions </h4>
+                            <p class="Information-description text-center">价值主张 - 我怎样帮助他人</p>
+                        </li>
+                        <li data-row="1" data-col="10" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>4. (CR) - Customer Relationships</h4>
+                            <p class="Information-description text-center">客户关系 - 怎样和对方打交道</p>
+                        </li>
+                        <li data-row="3" data-col="10" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>3. (CH) - Channels</h4>
+                            <p class="Information-description text-center">渠道通路 - 怎样宣传自己和交付服务</p>
+                        </li>
+                        <li data-row="1" data-col="13" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>1. (CS) - Customer Segments </h4>
+                            <p class="Information-description text-center">用户细分 - 我能帮谁</p>
+                        </li>
+                        <li data-row="5" data-col="1" data-sizex="7" data-sizey="2" class="gs-w"><br><br>
+                            <h4>9. (C$) - Cost Structure</h4>
+                            <p class="Information-description text-center">成本结构 - 我要付出什么</p>
+                        </li>
+                        <li data-row="5" data-col="8" data-sizex="8" data-sizey="2" class="gs-w"><br><br>
+                            <h4>5. (R$) - Revenue Streams</h4>
+                            <p class="Information-description text-center">收入来源 - 我能得到什么</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.gridster.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+	var gridster;
+	function Matrix() {
+        //$(".gridster > ul").gridster().data('gridster').disable();
+		$(".gridster > ul").gridster({
+			widget_margins: [15, 15],
+			widget_base_dimensions: [140, 140],
+            resize_enabled: false,
+            avoid_overlapped_widgets: false,
+			shift_larger_widgets_down: false,
+		});
+	};
+	Matrix();
+</script>

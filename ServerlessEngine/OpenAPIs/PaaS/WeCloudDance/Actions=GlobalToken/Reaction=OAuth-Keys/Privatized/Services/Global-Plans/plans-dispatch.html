@@ -1,0 +1,459 @@
+---
+permalink: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Global-Plans
+layout: Serverless/PaaS/weclouddance/apt-actions-models
+title: 
+---
+
+<!--Header start-->
+<div class="header">
+  <div class="header-content">
+    <nav class="navbar navbar-expand">
+      <div class="collapse navbar-collapse justify-content-between">
+        <div class="header-left">
+          <div class="dashboard_bar">{{ site.sidebar_work_spaces_global_plans }}</div>
+        </div>
+        {% include Serverless/PaaS/weclouddance/common/rtl-navigation-account-header.html %}
+      </div>
+    </nav>
+  </div>
+</div>
+<!--Header end-->
+
+<!-- row start-->
+<div class="content-body">
+  <div class="container-fluid">
+    <!-- New Plans -->
+    {% include Serverless/PaaS/weclouddance/utils/rtl-dispatch-widget.html %}
+    <div class="project-nav">
+      <div class="card-action card-tabs mr-auto">
+        <ul class="nav nav-tabs style-2">
+          <li class="nav-item">
+            <a href="#all" class="nav-link active" data-toggle="tab" aria-expanded="false">All Plans <span class="badge badge-pill shadow-primary badge-primary">154</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#progress" class="nav-link" data-toggle="tab" aria-expanded="false">On Progress <span class="badge badge-pill badge-info shadow-info">90</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#pending" class="nav-link" data-toggle="tab" aria-expanded="true">Pending <span class="badge badge-pill badge-warning shadow-warning">32</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#closed" class="nav-link" data-toggle="tab" aria-expanded="true">Closed <span class="badge badge-pill badge-danger shadow-danger">32</span></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#addOrderModal" class="btn btn-primary text-white">New Plans</a>
+        <a href="javascript:void(0);" class="mx-3">
+          <svg class="primary-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 7H20C20.7956 7 21.5587 6.68393 22.1213 6.12132C22.6839 5.55871 23 4.79565 23 4C23 3.20435 22.6839 2.44129 22.1213 1.87868C21.5587 1.31607 20.7956 1 20 1H4C3.20435 1 2.44129 1.31607 1.87868 1.87868C1.31607 2.44129 1 3.20435 1 4C1 4.79565 1.31607 5.55871 1.87868 6.12132C2.44129 6.68393 3.20435 7 4 7Z" fill="#43DC80"/>
+            <path d="M20 9H4C3.20435 9 2.44129 9.31607 1.87868 9.87868C1.31607 10.4413 1 11.2044 1 12C1 12.7956 1.31607 13.5587 1.87868 14.1213C2.44129 14.6839 3.20435 15 4 15H20C20.7956 15 21.5587 14.6839 22.1213 14.1213C22.6839 13.5587 23 12.7956 23 12C23 11.2044 22.6839 10.4413 22.1213 9.87868C21.5587 9.31607 20.7956 9 20 9Z" fill="#43DC80"/>
+            <path d="M20 17H4C3.20435 17 2.44129 17.3161 1.87868 17.8787C1.31607 18.4413 1 19.2044 1 20C1 20.7956 1.31607 21.5587 1.87868 22.1213C2.44129 22.6839 3.20435 23 4 23H20C20.7956 23 21.5587 22.6839 22.1213 22.1213C22.6839 21.5587 23 20.7956 23 20C23 19.2044 22.6839 18.4413 22.1213 17.8787C21.5587 17.3161 20.7956 17 20 17Z" fill="#43DC80"/>
+          </svg>
+        </a>
+        <a href="javascript:void(0);" class="mx-3">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0.999939H4C2.34315 0.999939 1 2.34308 1 3.99994V7.99994C1 9.65679 2.34315 10.9999 4 10.9999H8C9.65685 10.9999 11 9.65679 11 7.99994V3.99994C11 2.34308 9.65685 0.999939 8 0.999939Z" fill="rgb(26 51 83 / 86%)"/>
+            <path d="M20 0.999939H16C14.3431 0.999939 13 2.34308 13 3.99994V7.99994C13 9.65679 14.3431 10.9999 16 10.9999H20C21.6569 10.9999 23 9.65679 23 7.99994V3.99994C23 2.34308 21.6569 0.999939 20 0.999939Z" fill="rgb(26 51 83 / 86%)"/>
+            <path d="M8 13H4C2.34315 13 1 14.3431 1 16V20C1 21.6569 2.34315 23 4 23H8C9.65685 23 11 21.6569 11 20V16C11 14.3431 9.65685 13 8 13Z" fill="rgb(26 51 83 / 86%)"/>
+            <path d="M20 13H16C14.3431 13 13 14.3431 13 16V20C13 21.6569 14.3431 23 16 23H20C21.6569 23 23 21.6569 23 20V16C23 14.3431 21.6569 13 20 13Z" fill="rgb(26 51 83 / 86%)"/>
+          </svg>
+        </a>
+        {% include Serverless/PaaS/weclouddance/utils/plans-dispatch-widget.html %}
+      </div>
+    </div>
+    <div class="tab-content project-list-group" id="myTabContent">
+      <div class="tab-pane fade active show" id="all">
+        <div class="card">
+          <div class="project-info">
+            <div class="col-xl-3 col-xxl-3 my-2 col-lg-4 col-sm-6">
+              <p class="text-primary mb-2"># APT-US-VPDRT55K</p>
+              <h4 class="title font-w600 mb-3"><a href="{{ site.remote_services_api }}Global-Plans/Pull-Requests=PreviewPlans/NATT" class="text-black">NATT Plan</a></h4>
+              <div class="text-dark"><i class="fa fa-circle-o-notch mr-3" aria-hidden="true"></i>Build Packages Now</div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media">
+                  <img src="https://avatars.githubusercontent.com/u/48172110" alt="ANONYMOUS">
+                </div>
+                <div class="ml-4">
+                  <span>Organization</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w50 text-black">ANONYMOUS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media users-lg ml-sm-6 ml-0">
+                    <li><img src="https://avatars.githubusercontent.com/u/26638505" alt="Contributors"></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/51040809" alt="Contributors"></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/62531255" alt="Contributors"></li>
+                    <li><img src="https://avatars.githubusercontent.com/u/27757146" alt="Contributors"></li>
+                    <li><img src="https://apt-sis.github.io/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/contributors/57sz5.jpg" alt="Contributors"></li>
+                    <li><img src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/contributors/36sz5.jpg" alt="Contributors"></li>
+                    <li><div class="contributors-info" style="width: 44px; height: 44px;" alt="Contributors">More</div></li>
+                </div>
+                <div class="ml-4">
+                  <span>Contributors</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w500 text-black">CIA.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="power-ic users-lg ml-sm-5 ml-0">
+                  <i class="fa fa-bolt" aria-hidden="true"></i>
+                </div>
+                <div class="ml-4">
+                  <span>Network Requests</span>
+                  <h5 class="mb-0 pt-1 font-w500 text-black">Automation Build</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex project-status align-items-center">
+                <a href="javascript:void(0);" class="btn btn-info light status-btn">On Progress</a>
+                {% include Serverless/PaaS/weclouddance/utils/global-plans-edit-widget.html %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-info">
+            <div class="col-xl-3 col-xxl-3 my-2 col-lg-4 col-sm-6">
+              <p class="text-primary mb-2"># APT-US-FBY8W7TN</p>
+              <h4 class="title font-w600 mb-3"><a href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/Global-Plans/Pull-Requests=PreviewPlans/NBM" class="text-black">Next BIZ Model</a></h4>
+              <div class="text-dark"><i class="fa fa-circle-o-notch mr-3" aria-hidden="true"></i>Build Packages 38 Seconds Ago</div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media">
+                  <img src="https://avatars.githubusercontent.com/u/48172110" alt="ANONYMOUS">
+                </div>
+                <div class="ml-4">
+                  <span>Organization</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w50 text-black">ANONYMOUS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media users-lg ml-sm-6 ml-0">
+                  <li><img src="https://avatars.githubusercontent.com/u/26638505" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/51040809" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/62531255" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/54675598" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/108380" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/515576" alt="Contributors"></li>
+                  <li><div class="contributors-info" style="width: 44px; height: 44px;" alt="Contributors">More</div></li>
+                </div>
+                <div class="ml-4">
+                  <span>Contributors</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w500 text-black">SIS.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="power-ic users-lg ml-sm-5 ml-0">
+                  <i class="fa fa-bolt" aria-hidden="true"></i>
+                </div>
+                <div class="ml-4">
+                  <span>Network Requests</span>
+                  <h5 class="mb-0 pt-1 font-w500 text-black">Automation Build</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex project-status align-items-center">
+                <a href="javascript:void(0);" class="btn btn-info light status-btn">On Progress</a>
+                {% include Serverless/PaaS/weclouddance/utils/global-plans-edit-widget.html %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-info">
+            <div class="col-xl-3 col-xxl-3 my-2 col-lg-4 col-sm-6">
+              <div>
+                <p class="text-primary mb-2"># APT-US-PVZJO5K1</p>
+                <h4 class="title font-w600 mb-3"><a href="" class="text-black">Next Nuggets Plan</a></h4>
+                <div class="text-dark"><i class="fa fa-circle-o-notch mr-3" aria-hidden="true"></i>Build Packages 11 Minutes Ago</div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media">
+                  <img src="https://avatars.githubusercontent.com/u/48172110" alt="ANONYMOUS">
+                </div>
+                <div class="ml-4">
+                  <span>Organization</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w50 text-black">ANONYMOUS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media users-lg ml-sm-6 ml-0">
+                  <li><img src="https://avatars.githubusercontent.com/u/50226895" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/262760" alt="Contributors"></li>
+                  <li><img src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/contributors/1sz6.jpg" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/34752993" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/1102602" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/16964204" alt="Contributors"></li>
+                  <li><div class="contributors-info" style="width: 44px; height: 44px;" alt="Contributors">More</div></li>
+                </div>
+                <div class="ml-4">
+                  <span>Contributors</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w500 text-black">MI6.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="power-ic users-lg ml-sm-5 ml-0">
+                  <i class="fa fa-bolt" aria-hidden="true"></i>
+                </div>
+                <div class="ml-4">
+                  <span>Network Requests</span>
+                  <h5 class="mb-0 pt-1 font-w500 text-black">Automation Build</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex project-status align-items-center">
+                <a href="javascript:void(0);" class="btn btn-info light status-btn">On Progress</a>
+                {% include Serverless/PaaS/weclouddance/utils/global-plans-edit-widget.html %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-info">
+            <div class="col-xl-3 col-xxl-3 my-2 col-lg-4 col-sm-6">
+              <div>
+                <p class="text-primary mb-2"># APT-US-PVZJO5K1</p>
+                <h4 class="title font-w600 mb-3"><a href="" class="text-black">Privatized ByteDance</a></h4>
+                <div class="text-dark"><i class="fa fa-circle-o-notch mr-3" aria-hidden="true"></i>Build Packages 11 Minutes Ago</div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media">
+                  <img src="https://avatars.githubusercontent.com/u/48172110" alt="ANONYMOUS">
+                </div>
+                <div class="ml-4">
+                  <span>Organization</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w50 text-black">ANONYMOUS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media users-lg ml-sm-6 ml-0">
+                  <li><img src="https://avatars.githubusercontent.com/u/50226895" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/262760" alt="Contributors"></li>
+                  <li><img src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/contributors/1sz6.jpg" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/34752993" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/1102602" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/16964204" alt="Contributors"></li>
+                  <li><div class="contributors-info" style="width: 44px; height: 44px;" alt="Contributors">More</div></li>
+                </div>
+                <div class="ml-4">
+                  <span>Contributors</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w500 text-black">NOC.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="power-ic users-lg ml-sm-5 ml-0">
+                  <i class="fa fa-bolt" aria-hidden="true"></i>
+                </div>
+                <div class="ml-4">
+                  <span>Network Requests</span>
+                  <h5 class="mb-0 pt-1 font-w500 text-black">Automation Build</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex project-status align-items-center">
+                <a href="javascript:void(0);" class="btn btn-info light status-btn">On Progress</a>
+                {% include Serverless/PaaS/weclouddance/utils/global-plans-edit-widget.html %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-info">
+            <div class="col-xl-3 col-xxl-3 my-2 col-lg-4 col-sm-6">
+              <div>
+                <p class="text-primary mb-2"># APT-US-PVZJO5K1</p>
+                <h4 class="title font-w600 mb-3"><a href="" class="text-black">Next OpenCloud Market</a></h4>
+                <div class="text-dark"><i class="fa fa-circle-o-notch mr-3" aria-hidden="true"></i>Build Packages 11 Minutes Ago</div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media">
+                  <img src="https://avatars.githubusercontent.com/u/48172110" alt="ANONYMOUS">
+                </div>
+                <div class="ml-4">
+                  <span>Organization</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w50 text-black">ANONYMOUS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media users-lg ml-sm-6 ml-0">
+                  <li><img src="https://avatars.githubusercontent.com/u/50226895" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/262760" alt="Contributors"></li>
+                  <li><img src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/contributors/1sz6.jpg" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/34752993" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/1102602" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/16964204" alt="Contributors"></li>
+                  <li><div class="contributors-info" style="width: 44px; height: 44px;" alt="Contributors">More</div></li>
+                </div>
+                <div class="ml-4">
+                  <span>Contributors</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w500 text-black">NOC.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="power-ic users-lg ml-sm-5 ml-0">
+                  <i class="fa fa-bolt" aria-hidden="true"></i>
+                </div>
+                <div class="ml-4">
+                  <span>Network Requests</span>
+                  <h5 class="mb-0 pt-1 font-w500 text-black">Automation Build</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex project-status align-items-center">
+                <a href="javascript:void(0);" class="btn btn-info light status-btn">On Progress</a>
+                {% include Serverless/PaaS/weclouddance/utils/global-plans-edit-widget.html %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-info">
+            <div class="col-xl-3 col-xxl-3 my-2 col-lg-4 col-sm-6">
+              <div>
+                <p class="text-primary mb-2"># APT-US-PVZJO5K1</p>
+                <h4 class="title font-w600 mb-3"><a href="" class="text-black">Open Source Business Model</a></h4>
+                <div class="text-dark"><i class="fa fa-circle-o-notch mr-3" aria-hidden="true"></i>Build Packages 11 Minutes Ago</div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media">
+                  <img src="https://avatars.githubusercontent.com/u/48172110" alt="ANONYMOUS">
+                </div>
+                <div class="ml-4">
+                  <span>Organization</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w50 text-black">ANONYMOUS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media users-lg ml-sm-6 ml-0">
+                  <li><img src="https://avatars.githubusercontent.com/u/50226895" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/262760" alt="Contributors"></li>
+                  <li><img src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/contributors/1sz6.jpg" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/34752993" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/1102602" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/16964204" alt="Contributors"></li>
+                  <li><div class="contributors-info" style="width: 44px; height: 44px;" alt="Contributors">More</div></li>
+                </div>
+                <div class="ml-4">
+                  <span>Contributors</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w500 text-black">NOC.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="power-ic users-lg ml-sm-5 ml-0">
+                  <i class="fa fa-bolt" aria-hidden="true"></i>
+                </div>
+                <div class="ml-4">
+                  <span>Network Requests</span>
+                  <h5 class="mb-0 pt-1 font-w500 text-black">Automation Build</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex project-status align-items-center">
+                <a href="javascript:void(0);" class="btn btn-info light status-btn">On Progress</a>
+                {% include Serverless/PaaS/weclouddance/utils/global-plans-edit-widget.html %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-info">
+            <div class="col-xl-3 col-xxl-3 my-2 col-lg-4 col-sm-6">
+              <div>
+                <p class="text-primary mb-2"># APT-US-PVZJO5K1</p>
+                <h4 class="title font-w600 mb-3"><a href="" class="text-black">Everything CanBeCloud</a></h4>
+                <div class="text-dark"><i class="fa fa-circle-o-notch mr-3" aria-hidden="true"></i>Build Packages 11 Minutes Ago</div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media">
+                  <img src="https://avatars.githubusercontent.com/u/48172110" alt="ANONYMOUS">
+                </div>
+                <div class="ml-4">
+                  <span>Organization</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w50 text-black">ANONYMOUS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-4 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="project-media users-lg ml-sm-6 ml-0">
+                  <li><img src="https://avatars.githubusercontent.com/u/50226895" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/262760" alt="Contributors"></li>
+                  <li><img src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/contributors/1sz6.jpg" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/34752993" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/1102602" alt="Contributors"></li>
+                  <li><img src="https://avatars.githubusercontent.com/u/16964204" alt="Contributors"></li>
+                  <li><div class="contributors-info" style="width: 44px; height: 44px;" alt="Contributors">More</div></li>
+                </div>
+                <div class="ml-4">
+                  <span>Contributors</span>
+                  <h5 class="mb-0 pt-1 fs-18 font-w500 text-black">NOC.</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex align-items-center">
+                <div class="power-ic users-lg ml-sm-5 ml-0">
+                  <i class="fa fa-bolt" aria-hidden="true"></i>
+                </div>
+                <div class="ml-4">
+                  <span>Network Requests</span>
+                  <h5 class="mb-0 pt-1 font-w500 text-black">Automation Build</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 my-2 col-xxl-3 col-lg-6 col-sm-6">
+              <div class="d-flex project-status align-items-center">
+                <a href="javascript:void(0);" class="btn btn-info light status-btn">On Progress</a>
+                {% include Serverless/PaaS/weclouddance/utils/global-plans-edit-widget.html %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% include Serverless/PaaS/weclouddance/utils/load-more-plans-widget.html %}
+      </div>
+    </div>
+  </div>
+</div>
+<!-- row end-->

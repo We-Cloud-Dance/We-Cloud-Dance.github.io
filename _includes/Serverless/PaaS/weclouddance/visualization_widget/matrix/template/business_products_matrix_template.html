@@ -1,0 +1,72 @@
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/gridster.css">
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/jquery.gridster.min.css">
+<style>.Information-description {color:#fff;}</style>
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Biz Products Matrix</h4>
+        </div>
+        <div class="card-body pb-1">
+            <div class="col">
+                <div class="gridster">
+                    <ul style="width: 100%; height: 100px; min-width: 50%;">
+                        <li data-row="1" data-col="1" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>2. Demand Pain Points</h4>
+                             <p class="Information-description text-center">需求痛点 - 最需要解决的1-3问题, 现存替代解决方案</p>
+                             <p class="Information-description text-center">现存替代解决方案 Existing Alternatives - 问题现在是用哪些方式或产品解决的？</p>
+                        </li>
+                        <li data-row="1" data-col="4" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>3. Solution</h4>
+                            <p class="Information-description text-center">解决方案 - 产品最主要的3个功能或特点</p>
+                        </li>
+                        <li data-row="3" data-col="4" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>8. Key Metrics</h4>
+                            <p class="Information-description text-center">关键指标 - 推进业绩增长的关键指标</p>
+                        </li>
+                        <li data-row="1" data-col="7" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>4. Unique Value Proposition</h4>
+                            <p class="Information-description text-center">独特价值主张 - 简单有力地陈述你为何与众不同、值得购买？独特地解决了客户什么问题？</p>
+                        </li>
+                        <li data-row="1" data-col="10" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>9. Unfair Advantage</h4>
+                            <p class="Information-description text-center">竞争壁垒 - 无法被对手轻易复制或被对手轻易用钱买到的竞争优势</p>
+                        </li>
+                        <li data-row="3" data-col="10" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>5. Channels</h4>
+                            <p class="Information-description text-center">渠道通路 - 获取顾客的营销通道</p>
+                        </li>
+                        <li data-row="1" data-col="13" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>1. Customer Segments</h4>
+                            <p class="Information-description text-center">顾客群体细分 - 列出最主要的3类目标客户或用户, 早期用户列出最早会采用的理想顾客特征</p>
+                        </li>
+                        <li data-row="5" data-col="1" data-sizex="7" data-sizey="2" class="gs-w"><br><br>
+                            <h4>7. Cost Structure</h4>
+                            <p class="Information-description text-center">成本分析 - 成本结构/获客成本/工资成本/办公成本</p>
+                        </li>
+                        <li data-row="5" data-col="8" data-sizex="8" data-sizey="2" class="gs-w"><br><br>
+                            <h4>6. Revenue Streams</h4>
+                            <p class="Information-description text-center">收入分析 - 收入模式、收入、顾客生命周期价值、毛利率</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.gridster.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+	var gridster;
+	function Matrix() {
+        //$(".gridster > ul").gridster().data('gridster').disable();
+		$(".gridster > ul").gridster({
+			widget_margins: [20, 20],
+			widget_base_dimensions: [55, 55],
+            resize_enabled: false,
+            avoid_overlapped_widgets: false,
+			shift_larger_widgets_down: false,
+		});
+	};
+	Matrix();
+</script>

@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/gridster.css">
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/jquery.gridster.min.css">
+<style>.Information-description {color:#fff;}</style>
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title"><i class="flaticon-381-layer mr-2"></i>Next Biz Model Matrix</h4>
+        </div>
+        <div class="card-body pb-1">
+            <div class="ml-sm-5">
+                <div class="gridster">
+                    <ul style="width: 100%; height: 100px; min-width: 50%;">
+                        <li data-row="1" data-col="1" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>⑧ KP - Key Partnerships</h4>
+                        </li>
+                        <li data-row="1" data-col="4" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h5>⑥ KA - Key Actvities</h5>
+                        </li>
+                        <li data-row="3" data-col="4" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h5 class="fs-15">⑦ KR - Key Resources</h5>
+                        </li>
+                        <li data-row="1" data-col="7" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>② VP - Value Propositions</h4>
+                        </li>
+                        <li data-row="1" data-col="10" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>④ CR - Customer Relationships</h4>
+                        </li>
+                        <li data-row="3" data-col="10" data-sizex="3" data-sizey="2" class="gs-w"><br><br>
+                            <h4>③ CH - Channels</h4>
+                        </li>
+                        <li data-row="1" data-col="13" data-sizex="3" data-sizey="4" class="gs-w"><br><br>
+                            <h4>① CS - Customer Segments</h4>
+                        </li>
+                        <li data-row="5" data-col="1" data-sizex="7" data-sizey="2" class="gs-w"><br><br>
+                            <h4>⑨ C$ - Cost Structure</h4>
+                        </li>
+                        <li data-row="5" data-col="8" data-sizex="8" data-sizey="2" class="gs-w"><br><br>
+                            <h4>⑤ R$ - Revenue Streams</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.gridster.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+	var gridster;
+	function Matrix() {
+		$(".gridster > ul").gridster({
+            widget_margins: [25, 25],
+			widget_base_dimensions: [45, 45],
+            resize: { enabled: false },
+            avoid_overlapped_widgets: false,
+			shift_larger_widgets_down: false,
+		});
+	};
+	Matrix();
+</script>
