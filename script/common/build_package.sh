@@ -15,7 +15,7 @@ echo "
 │   ╚███╔███╔╝███████╗    ╚██████╗███████╗╚██████╔╝╚██████╔╝██████╔╝    ██████╔╝██║  ██║██║ ╚████║╚██████╗███████╗           │
 │    ╚══╝╚══╝ ╚══════╝     ╚═════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝           │
 │									   	 		  		   	     │
-│                  	      -- ☁️ 💃 WE CLOUD DANCE - MAKE EVERY ACTIONS ACCOUNTABLE. 🍻 🗽 --                             │
+│                  	      -- ☁️ 💃 WE CLOUD DANCE - MAKE EVERY ACTIONS ACCOUNTABLE. 🍻 🗽 --                              │
 │									   	 		  		   	     │
 │                              :: REMOTE USA FOR ANON SYS, Inc. - VERSION (V27.2.5-SNAPSHOT) ::                              │
 │									   	 		  		   	     │
@@ -57,7 +57,7 @@ echo "
 │   ╚███╔███╔╝███████╗    ╚██████╗███████╗╚██████╔╝╚██████╔╝██████╔╝    ██████╔╝██║  ██║██║ ╚████║╚██████╗███████╗           │
 │    ╚══╝╚══╝ ╚══════╝     ╚═════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝           │
 │									   	 		  		   	     │
-│                  	      -- ☁️ 💃 WE CLOUD DANCE - MAKE EVERY ACTIONS ACCOUNTABLE. 🍻 🗽 --                             │
+│                  	      -- ☁️ 💃 WE CLOUD DANCE - MAKE EVERY ACTIONS ACCOUNTABLE. 🍻 🗽 --                              │
 │									   	 		  		   	     │
 │                              :: REMOTE USA FOR ANON SYS, Inc. - VERSION (V27.2.5-SNAPSHOT) ::                              │
 │									   	 		  		   	     │
