@@ -24,7 +24,7 @@ echo "
 │									   	 		  		   	     │
 │                  	     -- ☁️ 💃 WE CLOUD DANCE - MAKE EVERY ACTIONS ACCOUNTABLE. 🍻 🗽 --                                │
 │									   	 		  		   	     │
-│                             :: REMOTE USA FOR ANON SYS, Inc. - VERSION (V27.2.5-SNAPSHOT) ::                               │
+│                           :: REMOTE USA FOR ANON SYS, Inc. - VERSION (V27.2.5-SNAPSHOT) ::                                 │
 │									   	 		  		   	     │
 └───────────────────────────────────────────── (START AUTOMATED BUILD SERVICE) ──────────────────────────────────────────────┘
 "
