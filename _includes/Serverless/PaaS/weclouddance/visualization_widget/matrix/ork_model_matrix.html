@@ -1,0 +1,52 @@
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/gridster.css">
+<link rel="stylesheet" type="text/css" href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/visualization/jquery.gridster.min.css">
+<style>.Information-description {color:#fff;}
+.headers {
+    background-image: linear-gradient(20deg, #f093fb 0%, #f5576c 100%);
+    color: #ffffff;
+    display: block; font-size: 20px; line-height: normal; padding: 4px 0 6px; margin-bottom: 20px; cursor: move; border-top-left-radius: 1.375rem; border-top-right-radius: 1.375rem;
+}
+</style>
+<div class="col-lg-6">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title"><i class="flaticon-381-layer mr-2"></i>OKRs-E Model Matrix</h4>
+        </div>
+        <div class="card-body pb-1">
+            <div class="ml-sm-5">
+                <div class="gridster">
+                    <ul style="width: 100%; height: 100px; min-width: 50%;">
+                        <li data-row="1" data-col="1" data-sizex="7" data-sizey="4" class="gs-w" style="background-image: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);">
+                            <header class="headers">O (Objectives)</header> <h4>修正弱势, 强化优势</h4>
+                        </li>
+                        <li data-row="1" data-col="8" data-sizex="7" data-sizey="4" class="gs-w" style="background-image: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);">
+                            <header class="headers">K (Key)</header> <h4>避开威胁, 调整路线</h4>
+                        </li>
+                        <li data-row="5" data-col="1" data-sizex="7" data-sizey="4" class="gs-w" style="background-image: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);">
+                            <header class="headers">R (Results)</header> <h4>利用优势, 寻找机会</h4>
+                        </li>
+                        <li data-row="5" data-col="8" data-sizex="7" data-sizey="4" class="gs-w" style="background-image: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);">
+                            <header class="headers">E (Execute)</header> <h4>使用优势, 回避威胁</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+<script src="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/js/visualization/jquery.gridster.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+	var gridster;
+	function Matrix() {
+		$(".gridster > ul").gridster({
+            widget_margins: [25, 25],
+			widget_base_dimensions: [45, 45],
+            resize: { enabled: false },
+            avoid_overlapped_widgets: false,
+			shift_larger_widgets_down: false,
+		});
+	};
+	Matrix();
+</script>
