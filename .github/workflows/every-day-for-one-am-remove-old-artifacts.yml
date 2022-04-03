@@ -1,0 +1,18 @@
+# every-day-for-one-am-remove-old-artifacts
+
+name: Every Day For One Am Remove Old Artifacts
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  remove-old-artifacts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+    - name: Every Day For One Am Remove Old Artifacts
+      uses: c-hive/gha-remove-artifacts@v1.2.0
+      with:
+        age: '1 month'
