@@ -7,7 +7,7 @@
   <link rel="apple-touch-icon" href="{{ site.sys_favicon }}">
   <link href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/vendor/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
   <link href="/ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/css/main.css" rel="stylesheet">
-  <title> ☄️ We Cloud Dance - Make Every Actions Accountable.</title>
+  <title>{{ page.title }}  |  {{ page.excerpt }}</title>
 </head>
 
 <script type="text/javascript">
@@ -19,10 +19,10 @@
       _record = 1;
     }
     if (_record == 1) {
-      document.title = " 🍻 🗽 We Cloud Dance - Make Every Actions Accountable." + sys_info;
+      document.title = "{{ page.title }} | " + sys_info;
     }
     if (_record == 2) {
-      document.title = " ☁️ 💃 We Cloud Dance - Manage Privatized & Publicized Idea | Plans | Actions | Tasks | Communications." + sys_info;
+      document.title = " {{ page.excerpt }} | " + sys_info;
     }
     setTimeout("information()", 1000);
   }
