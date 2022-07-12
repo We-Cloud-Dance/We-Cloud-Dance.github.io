@@ -10546,11 +10546,11 @@ a.text-light:hover,a.text-light:focus {
 }
 
 .text-dark {
-	color: #6e6e6e !important
+	color: #1a3353 !important
 }
 
 a.text-dark:hover,a.text-dark:focus {
-	color: #484848 !important
+	color: #1a3353 !important
 }
 
 .text-body {
@@ -10892,6 +10892,7 @@ a:hover,a:focus,a.active {
 .font-w600 {
 	font-weight: 600;
   font-family: 'poppins', sans-serif;
+  color: #1a3353;
 }
 
 .font-w700 {
@@ -33117,7 +33118,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 }[data-theme-version="dark"] .header-left .dashboard_bar,[data-theme-version="dark"] .star-review span,[data-theme-version="dark"] .table strong {
 	color: #fff
 }[data-theme-version="dark"] .text-dark {
-	color: #828690 !important
+	color: #1a3353 !important
 }[data-theme-version="dark"] .star-rating .product-review,[data-theme-version="dark"] .new-arrival-content .item {
 	color: #fff
 }[data-theme-version="dark"] .custom-dropdown .dropdown-menu {
@@ -37212,8 +37213,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 	border: 1px solid #eee;
 	cursor: pointer;
 	position: relative;
-	color: #333;
-	font-weight: 400;
+	color: #1a3353;
+	font-weight: 600;
 	border-radius: 1.375rem;
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -43576,7 +43577,8 @@ table.dataTable.row-border tbody th,table.dataTable.row-border tbody td,table.da
 	margin-bottom: 10px;
 	display: block;
 	font-weight: 600;
-	font-size: 14px
+	font-size: 14px;
+	color: #1a3353;
 }
 
 @media only screen and (max-width: 575px) {
@@ -47894,7 +47896,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 }[data-theme-version="dark"] .header-left .dashboard_bar,[data-theme-version="dark"] .star-review span,[data-theme-version="dark"] .table strong {
 	color: #fff
 }[data-theme-version="dark"] .text-dark {
-	color: #828690 !important
+	color: #1a3353 !important
 }[data-theme-version="dark"] .star-rating .product-review,[data-theme-version="dark"] .new-arrival-content .item {
 	color: #fff
 }[data-theme-version="dark"] .custom-dropdown .dropdown-menu {
