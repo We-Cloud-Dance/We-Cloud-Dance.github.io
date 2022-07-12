@@ -10895,6 +10895,12 @@ a:hover,a:focus,a.active {
   color: #1a3353;
 }
 
+[data-theme-version="dark"] .font-w600 {
+	font-weight: 600;
+  font-family: 'poppins', sans-serif;
+  color: #fff;
+}
+
 .font-w700 {
 	font-weight: 700;
   font-family: 'poppins', sans-serif;
@@ -43579,6 +43585,14 @@ table.dataTable.row-border tbody th,table.dataTable.row-border tbody td,table.da
 	font-weight: 600;
 	font-size: 14px;
 	color: #1a3353;
+}
+
+[data-theme-version="dark"] .kanbanPreview-bx .card-body .sub-card>.sub-title {
+	margin-bottom: 10px;
+	display: block;
+	font-weight: 600;
+	font-size: 14px;
+	color: #d7effe;
 }
 
 @media only screen and (max-width: 575px) {
