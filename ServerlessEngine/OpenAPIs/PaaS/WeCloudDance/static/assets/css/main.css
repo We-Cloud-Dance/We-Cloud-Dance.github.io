@@ -41694,7 +41694,7 @@ code {
 }
 
 .table.table-striped tbody tr:nth-of-type(odd),.table.table-hover tr:hover {
-	background-color: #19232c12;
+	background-color: rgb(73 220 128 / 51%);
 }[data-theme-version="dark"] .table.table-striped tbody tr:nth-of-type(odd),[data-theme-version="dark"] .table.table-hover tr:hover {
 	background-color: #19232c73;
 }
