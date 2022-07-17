@@ -6347,11 +6347,13 @@ a.close.disabled {
 [data-theme-version="dark"] .popover-body {
 	padding: .5rem .75rem;
 	color: #d7effe;
+	font-weight: 600;
 }
 
 [data-theme-version="light"] .popover-body {
 	padding: .5rem .75rem;
 	color: #1a3353;
+	font-weight: 600;
 }
 
 .carousel {
@@ -40065,9 +40067,9 @@ code {
 
 .popover {
 	border: 2px solid #00fe3c;
-	min-width: 210px;
+	min-width: 265px;
 	z-index: 103;
-	box-shadow: 0 0 30px 0 rgba(0,0,0,0.1)
+	box-shadow: 0 10px 40px 0 rgb(32 28 69 / 10%);
 }[data-theme-version="dark"] .popover {
 	background-color: #19232b;
 }
