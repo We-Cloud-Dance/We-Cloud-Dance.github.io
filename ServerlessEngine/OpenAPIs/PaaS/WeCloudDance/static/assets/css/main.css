@@ -375,11 +375,11 @@ sup {
 }
 
 [data-theme-version="light"] .desc_lines {
-	border-bottom: 3px dashed #49dc80;
+	border-bottom: 2px dashed #49dc80;
 }
 
 [data-theme-version="dark"] .desc_lines {
-	border-bottom: 3px dashed #00fe3c;
+	border-bottom: 2px dashed #00fe3c;
 }
 
 a {
