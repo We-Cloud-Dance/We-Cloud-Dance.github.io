@@ -48683,6 +48683,15 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   text-overflow: ellipsis;
 }
 
+.content_omitted_322 {
+	  display: inline-block;
+	  max-width: 322px;
+	  vertical-align: top;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	}
+
 .pht {
 	margin-top: 1px;
 }
