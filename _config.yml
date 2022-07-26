@@ -1220,7 +1220,7 @@ remote_global_ui: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/res
 remote_products_api_v1: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/products/WeCloudDance_small_sign-v2.svg
 remote_products_api_v2: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/products/WeCloudDance_word_sign-v2.svg
 remote_anon_api_v1: "https://avatars.githubusercontent.com/u/48172110"
-remote_anon_api_v2: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/products/anon_word_sign-v1.svg
+remote_anon_api_v2: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/static/assets/resource/common/products/anon_word_sign-v2.svg
 remote_dispatch_api: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance
 remote_account_api: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Account/
 remote_services_api: /ServerlessEngine/OpenAPIs/PaaS/WeCloudDance/Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/
