@@ -1,0 +1,43 @@
+# Q1th OKRs | Workflows For 1~3 Quarter OKRs
+
+- okr_map_structure_item_1: "Location Objectives"
+  okr_map_structure_item_2: "└─  Research Space"
+  okr_map_structure_item_3: "└── Global Research"
+  okr_map_structure_description: "Objectives Node 1 - Intelligence Tracking"
+
+- okr_level: #
+  okr_node_id: "okr_node_id_q1th_001"
+  okr_node_header_primary: # close: collapsed | open: null
+  okr_node_accordion_body: show # close: null | open: show
+  okr_node_objective_description: "Strategic Objective"
+  okr_node_description: "Objective 1 - 建设完善分布式全球情报追踪名单体系, 研究实现所有数据集的可溯源、可积累;"
+
+- okr_level_node_desc: #
+  okr_node_krs_id: "1-1"
+  okr_node_krs_status: "Serverless/PaaS/weclouddance/visualization_widget/plan-status/rotate-status/rs-success.html"
+  okr_node_krs_desc: "设计亚洲情报数据结构;"
+  okr_node_krs_action: "完成亚洲情报数据结构设计, 数据集逻辑完整性不低于90%;"
+- okr_level_node_desc: #
+  okr_node_krs_id: "1-2"
+  okr_node_krs_status: "Serverless/PaaS/weclouddance/visualization_widget/plan-status/rotate-status/rs-success.html" # {% include Serverless/PaaS/weclouddance/visualization_widget/plan-status/rotate-status/rs-success.html %}
+  okr_node_krs_desc: "设计美洲情报数据结构;"
+  okr_node_krs_action: "完成美洲情报数据结构设计, 数据集逻辑完整性不低于90%;"
+
+
+- okr_map_structure_item_1: "XXXX"
+  okr_map_structure_item_2: "└─  XXXX"
+  okr_map_structure_item_3: "└── XXXX"
+  okr_map_structure_description: "Objectives Node 2 - xxxxx"
+
+- okr_level: #
+  okr_node_id: "okr_node_id_q1th_002"
+  okr_node_header_primary: # close: collapsed | open: null
+  okr_node_accordion_body: show # close: null | open: show
+  okr_node_objective_description: "XXXX"
+  okr_node_description: "Objective 1 - xxxxxx;"
+
+- okr_level_node_desc: #
+  okr_node_krs_id: "1-1"
+  okr_node_krs_status: "Serverless/PaaS/weclouddance/visualization_widget/plan-status/rotate-status/rs-success.html"
+  okr_node_krs_desc: "xxxxx;"
+  okr_node_krs_action: "xxxxxx;"
